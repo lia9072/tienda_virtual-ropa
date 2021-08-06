@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/Proyecto Final de Entornos web/css/login.css">
+ <link rel="stylesheet" href="/Proyecto Final de Entornos web/css/hombres.css"> 
+</head>
+<body>
+ 
+
+           
+  <div class="row">
+    <div class="contenedor">
+        <div class="contenedor__nav">
+        <div class="logo">   
+            <h1>TREND´S</h1>
+        </div>
+            <nav>
+                <a href="/Proyecto Final de Entornos web/inicio.html">INICIO</a>
+                <a href="">MUJERES</a>
+                <a href="/Proyecto Final de Entornos web/hombres.html">HOMBRES</a>
+                <a href="">NIÑOS</a>         
+                <ul>
+                  <li class="submenu">
+                    <a target="_top" href=""> <i id="img-carrito" class="fas fa-heart"></i>       </a> 
+                          <div id="carrito">
+                                  
+                                  <table id="lista-carrito" class="u-full-width">
+                                      <thead>
+                                          <tr>
+                                              <th>Imagen</th>
+                                              <th>Nombre</th>
+                                              <th>Precio</th>
+                                              <th>Cantidad</th>
+                                              <th></th>
+                                          </tr>
+                                      </thead>
+                                      <tbody></tbody>
+                                  </table>
+
+                                  <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                          </div>
+                  </li>
+                </ul>
+                               
+                <a target="_top" id="fars" href="login.html"><i class="far fa-user"></i></a>          
+
+            </nav>             
+        </div>
+    </div>
+    </div>
+
+
+    
+    <div id="contenedor">
+            
+        <div id="contenedorcentrado">
+            <div id="login">
+                <form id="loginform">
+                    <label for=""> NOMBRE: </label>
+                    <input type="text" id="nombre" placeholder="nombre del usuario">
+                    <label for="">APELLIDOS: </label>
+                    <input type="text" id="apellido" placeholder="Apellido">
+
+                    <label for="usuario">Usuario</label>
+                    <input id="email" type="text" placeholder="Usuario">
+                 
+                    <label for="password">Contraseña</label>                  
+                    <input type="password" id="contraseña" placeholder="Contraseña">
+
+                    <button  id="btnEnviar" >INGRESAR</button> 
+                </form>
+                
+            </div>
+            <div id="derecho">
+                <div class="titulo">
+                    Bienvenido
+                </div>
+                <hr>
+                <div class="pie-form">
+                    <a href="#">¿Perdiste tu contraseña?</a>
+                    <a href="#">¿No tienes Cuenta? Registrate</a>
+                    <hr>
+                    <a href="inicio.html">« Volver</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+    <script src="js/login.js"></script>
+</body>
+</html>
